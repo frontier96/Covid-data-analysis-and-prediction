@@ -1,0 +1,28 @@
+data1		4.18states				data_states1		
+data2		abridged_couties		data_counties1	
+data_time_case		data_conf1
+data_time_death    data_death1
+
+
+
+data_covid_time_con	>	data_conf1
+data_covid_time_dea >  data_death1
+
+
+
+
+
+2. EDA 1
+
+
+
+
+dR/dt = a*I(t), dI/dt=b*I(t)*S(t)/(S(t)+I(t)+R(t))-a*I(t), dS/dt=-b*I(t)*S(t)/(S(t)+I(t)+R(t))
+
+dR/dt = a*F, dF/dt=b*F*S/(S+F+R)-a*F, dS/dt=-b*F*S(t)/(S+F+R)
+
+
+dy/dt = b*y*S-c*y solve y
+
+
+plot y = x(1+ln(1/x*10))
